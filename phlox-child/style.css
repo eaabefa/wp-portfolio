@@ -1,0 +1,37 @@
+/* =============================================================================
+Theme Name: Phlox Child
+Theme URI: http://www.BenjaminFalberg.dk
+Author: Benjamin Falberg
+Author URI: http://www.averta.net
+Description: This is my Phlox child theme. Phlox is the only theme that you have ever need to use and look no further. Start exploring the demos: http://demo.phlox.pro/default/
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: one-column,two-columns, three-columns, four-columns, left-sidebar, right-sidebar, grid-layout, custom-menu, custom-colors, editor-style, featured-images, featured-image-header, footer-widgets, full-width-template, post-formats, sticky-post, theme-options, translation-ready, e-commerce, portfolio, food-and-drink, threaded-comments, custom-logo
+Text Domain: phlox
+Template: phlox
+==============================================================================*/
+
+
+#fs-menu-search::before{
+    
+    background-color: rgba(0, 0, 20, 0.5);
+}
+
+/* Importere og navngiver font family */
+
+@font-face {
+	font-family: 'Bebas-Neue';
+	src: url(fonts/BebasNeue-Bold.otf);
+	font-style: normal;
+}
+
+h1.elementor-heading-title.elementor-size-default{
+    font-family: 'Bebas-Neue';
+    letter-spacing: 3px;
+}
+
+/*h1{
+    font-family: 'Bebas-Neue', sans-serif;
+}
+*/
